@@ -7,8 +7,8 @@
 		MOV R7, #00
 L1		LDR R5, [R3], #04
 		CMP R1, R5
-		BLO L2
-		MOVS R1, R5
+		BLS L2
+		MOV R1, R5
 L2		SUBS R4, R4, #01
 		BNE L1
 STOP    B STOP
