@@ -5,7 +5,7 @@
 		LDR R5, [R3], #04
 		SUB R4, R4, #01
 		MOV R7, #00
-L1		LDR R5, [R3], #04
+L1		LDR R1, [R3], #04
 		CMP R1, R5
 		BHS L2
 		MOVS R1, R5
